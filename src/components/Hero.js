@@ -13,7 +13,7 @@ export default function Hero() {
     }
 
 
-    return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
+    return <section className='flex flex-col md:flex-row px-5 md:py-32 bg-primary justify-center'>
         <div className='md:w-1/2 flex flex-col'>
             <h1 className='text-white mt-20 text-4xl font-hero-font'>Hello , <br/> I'm SABARI
             <p className='text-2xl text-black'>{config.subtitle}</p>
